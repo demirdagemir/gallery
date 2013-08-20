@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	color: #036;
+	height: auto;
+	width: auto;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}.main {
+	height: 400px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+.main #gallery {
+	float: left;
+	width: 445px;
+	height: 400px;
+}
+.main #right {
+	font-size: 3em;
+	color: #000;
+	float: right;
+	margin-top: 175px;
+	cursor: pointer;
+}
+.main #left {
+	font-size: 3em;
+	color: #000;
+	float: left;
+	margin-top: 175px;
+	cursor: pointer;
+}
+
+.main #gallery img {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
